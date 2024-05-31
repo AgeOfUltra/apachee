@@ -28,6 +28,24 @@
         <p>For the understanding of how the json object is created and how the json object is mapper i have mentioned the comments near the code itsef.</p>
         <p>Go through it for understanding.</p>
     <hr>
+    <h2>SetUp Database</h2>
+    <p>run the code in the mysql workbench given below</p>
+    <pre>
+        <code>
+            create database a_db;
+            -- run the application for the first time to create tables in the database!
+            -- now run it for inserting data in the tabe student.
+            use a_db;
+                insert into student(name,email) values('tony','tony@gmail.com');
+                insert into student(name,email) values ('zoro','zoro@gmail.com');
+                insert into student(name,email) values ('luffy','luffy@gmail.com');
+                insert into student(name,email) values ('sanji','sanji@gmail.com');
+                insert into student(name,email) values ('robin','robin@gmail.com');
+                insert into student(name,email) values ('usopp','usopp@gmail.com');
+                insert into student(name,email) values ('doctor','doctor@gmail.com');
+                insert into student(name,email) values ('Jarvis','Jarvis@gmail.com');
+        </code>
+    </pre>
     <h2>How to Run</h2>
     <h3>Server Application</h3>
     <ol>
@@ -46,7 +64,7 @@
     <ul>
         <li>Spring Boot</li>
         <li>Spring Data JPA</li>
-        <li>H2 Database (for testing purposes)</li>
+        <li>MySQL Driver</li>
     </ul>  
     <h3>Client Application</h3>
     <ul>
