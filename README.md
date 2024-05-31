@@ -6,7 +6,8 @@
 </head>
 <body>
     <h1>Student Server REST API</h1>
-    <p>This project contains a simple server application with REST API endpoints to manage student data, and a Java client application using Apache HttpClient to interact with these endpoints.</p>\
+    <p>This project contains a simple server application with REST API endpoints to manage student data, and a Java client application using Apache HttpClient to interact with these endpoints.</p>
+    <p>I have used this similar Apache HttpClient for my semester project!.</p>
     <h2>Server Application</h2>
     <p>The server application is built using Spring Boot and provides the following REST API endpoints:</p>
     <ul>
@@ -23,6 +24,10 @@
         <li><strong>postStudent()</strong>: Sends a POST request to the <code>/saveStudent</code> endpoint to save a new student record.</li>
     </ul>
     <p>The client code is located in the <code>org.voting</code> package, and uses Jackson for JSON processing.</p> 
+    <hr>
+        <p>For the understanding of how the json object is created and how the json object is mapper i have mentioned the comments near the code itsef.</p>
+        <p>Go through it for understanding.</p>
+    <hr>
     <h2>How to Run</h2>
     <h3>Server Application</h3>
     <ol>
@@ -50,5 +55,6 @@
     </ul>  
     <h2>Contributing</h2>
     <p>Contributions are welcome! Please fork the repository and submit pull requests.</p>
+    <p>U can add more Http methods and play around them!</p>
 </body>
 </html>
